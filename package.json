@@ -1,6 +1,6 @@
 {
   "name": "loto-studio",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "private": true,
   "scripts": {
     "test": "node tests/core.test.js && node tests/editor.test.mjs && node tests/media.test.mjs && node tests/storage.test.mjs",
