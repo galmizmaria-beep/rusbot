@@ -1,10 +1,12 @@
 {
   "version": 1,
+  "language": "ru",
+  "editorLanguage": "ru",
   "title": "Математическое лото",
   "description": "Решай задания, выбирай бочонки и собери свой счастливый билет!",
   "questions": [
     {
-      "id": "id-vkm855ytq",
+      "id": "id-f7hrm2tv5",
       "type": "single",
       "text": "Сколько будет 1 + 1?",
       "label": "1 + 1",
@@ -12,17 +14,17 @@
       "explanation": "1 + 1 = 2",
       "options": [
         {
-          "id": "id-w8f0edg66",
+          "id": "id-aa3hb7kr5",
           "text": "2",
           "correct": true
         },
         {
-          "id": "id-gdpxweqox",
+          "id": "id-zr59fgqes",
           "text": "3",
           "correct": false
         },
         {
-          "id": "id-blwf7kdao",
+          "id": "id-8dd886qjz",
           "text": "1",
           "correct": false
         }
@@ -35,7 +37,7 @@
       "spaces": true
     },
     {
-      "id": "id-zwcefczqs",
+      "id": "id-cjwwaplct",
       "type": "single",
       "text": "Сколько будет 2 + 2?",
       "label": "2 + 2",
@@ -43,17 +45,17 @@
       "explanation": "2 + 2 = 4",
       "options": [
         {
-          "id": "id-jfu5ej0zo",
+          "id": "id-zlxvkoo05",
           "text": "4",
           "correct": true
         },
         {
-          "id": "id-5mtrjtp8e",
+          "id": "id-utvs1obxm",
           "text": "5",
           "correct": false
         },
         {
-          "id": "id-qunv0rafn",
+          "id": "id-qfc44a6xy",
           "text": "3",
           "correct": false
         }
@@ -66,7 +68,7 @@
       "spaces": true
     },
     {
-      "id": "id-17o8k8hjo",
+      "id": "id-aap2hn8z4",
       "type": "single",
       "text": "Сколько будет 3 + 3?",
       "label": "3 + 3",
@@ -74,17 +76,17 @@
       "explanation": "3 + 3 = 6",
       "options": [
         {
-          "id": "id-jltu6ekdf",
+          "id": "id-z8jgv9myf",
           "text": "6",
           "correct": true
         },
         {
-          "id": "id-d08q7uleu",
+          "id": "id-pn06zk9aa",
           "text": "7",
           "correct": false
         },
         {
-          "id": "id-pu69jcd64",
+          "id": "id-clft7z877",
           "text": "5",
           "correct": false
         }
@@ -97,7 +99,7 @@
       "spaces": true
     },
     {
-      "id": "id-4dn2tidfl",
+      "id": "id-pymmuaqer",
       "type": "multiple",
       "text": "Выберите все чётные числа.",
       "label": "Чётные числа",
@@ -105,17 +107,17 @@
       "explanation": "Чётные числа делятся на 2 без остатка.",
       "options": [
         {
-          "id": "id-wcd2kly0k",
+          "id": "id-5ky9m8pnf",
           "text": "2",
           "correct": true
         },
         {
-          "id": "id-s0ylv8ixc",
+          "id": "id-gclvof70w",
           "text": "3",
           "correct": false
         },
         {
-          "id": "id-zv082ngpg",
+          "id": "id-dwvrsj5cx",
           "text": "4",
           "correct": true
         }
@@ -128,7 +130,7 @@
       "spaces": true
     },
     {
-      "id": "id-chq1j1ol8",
+      "id": "id-ch6t7pf1q",
       "type": "single",
       "text": "Сколько будет 5 + 5?",
       "label": "5 + 5",
@@ -136,17 +138,17 @@
       "explanation": "5 + 5 = 10",
       "options": [
         {
-          "id": "id-tiauikytc",
+          "id": "id-y6ckbbhkn",
           "text": "10",
           "correct": true
         },
         {
-          "id": "id-7qvczd4na",
+          "id": "id-7wkpoqjxu",
           "text": "11",
           "correct": false
         },
         {
-          "id": "id-hd33mno73",
+          "id": "id-e6yktmeix",
           "text": "9",
           "correct": false
         }
@@ -159,7 +161,7 @@
       "spaces": true
     },
     {
-      "id": "id-ix9ckpib9",
+      "id": "id-bw83yed9b",
       "type": "single",
       "text": "Сколько будет 6 + 6?",
       "label": "6 + 6",
@@ -167,17 +169,17 @@
       "explanation": "6 + 6 = 12",
       "options": [
         {
-          "id": "id-n0r5hjk97",
+          "id": "id-lr23jvene",
           "text": "12",
           "correct": true
         },
         {
-          "id": "id-u0kaofdxe",
+          "id": "id-yxh4j3fac",
           "text": "13",
           "correct": false
         },
         {
-          "id": "id-5ajml9ach",
+          "id": "id-r34upix6c",
           "text": "11",
           "correct": false
         }
@@ -190,7 +192,7 @@
       "spaces": true
     },
     {
-      "id": "id-aeveb27hd",
+      "id": "id-kylhcncqp",
       "type": "single",
       "text": "Сколько будет 7 + 7?",
       "label": "7 + 7",
@@ -198,17 +200,17 @@
       "explanation": "7 + 7 = 14",
       "options": [
         {
-          "id": "id-4s0aw2fit",
+          "id": "id-3pkqiijp4",
           "text": "14",
           "correct": true
         },
         {
-          "id": "id-x4v2qq1gn",
+          "id": "id-jsmko4eoi",
           "text": "15",
           "correct": false
         },
         {
-          "id": "id-9p8q7ix78",
+          "id": "id-kss84fgw9",
           "text": "13",
           "correct": false
         }
@@ -221,7 +223,7 @@
       "spaces": true
     },
     {
-      "id": "id-82y2796wq",
+      "id": "id-wsfw9z6so",
       "type": "text",
       "text": "Как называется результат сложения?",
       "label": "Результат сложения",
@@ -229,17 +231,17 @@
       "explanation": "Результат сложения — сумма.",
       "options": [
         {
-          "id": "id-q8jd7optu",
+          "id": "id-3soko1s51",
           "text": "16",
           "correct": true
         },
         {
-          "id": "id-81x74ss0x",
+          "id": "id-xcwktk0y3",
           "text": "17",
           "correct": false
         },
         {
-          "id": "id-hib34zk8g",
+          "id": "id-kpmms9jvx",
           "text": "15",
           "correct": false
         }
@@ -252,7 +254,7 @@
       "spaces": true
     },
     {
-      "id": "id-c81etzbow",
+      "id": "id-y56i8kume",
       "type": "single",
       "text": "Сколько будет 9 + 9?",
       "label": "9 + 9",
@@ -260,17 +262,17 @@
       "explanation": "9 + 9 = 18",
       "options": [
         {
-          "id": "id-sr9vo41us",
+          "id": "id-t4qeasccm",
           "text": "18",
           "correct": true
         },
         {
-          "id": "id-g930tde9v",
+          "id": "id-9t1vyl6su",
           "text": "19",
           "correct": false
         },
         {
-          "id": "id-iec607ty5",
+          "id": "id-utllzxkpj",
           "text": "17",
           "correct": false
         }
@@ -283,7 +285,7 @@
       "spaces": true
     },
     {
-      "id": "id-swkuw3yky",
+      "id": "id-0mz4ayi04",
       "type": "single",
       "text": "Сколько будет 10 + 10?",
       "label": "10 + 10",
@@ -291,17 +293,17 @@
       "explanation": "10 + 10 = 20",
       "options": [
         {
-          "id": "id-pd2ngmhkw",
+          "id": "id-d5z8bv7i0",
           "text": "20",
           "correct": true
         },
         {
-          "id": "id-2dkqyz69l",
+          "id": "id-end3i187c",
           "text": "21",
           "correct": false
         },
         {
-          "id": "id-yi2t1lt27",
+          "id": "id-znsvxd3qd",
           "text": "19",
           "correct": false
         }
@@ -314,7 +316,7 @@
       "spaces": true
     },
     {
-      "id": "id-mff54iq3i",
+      "id": "id-4esrmo15d",
       "type": "single",
       "text": "Сколько будет 11 + 11?",
       "label": "11 + 11",
@@ -322,17 +324,17 @@
       "explanation": "11 + 11 = 22",
       "options": [
         {
-          "id": "id-ggp66tt5m",
+          "id": "id-w2a1g405s",
           "text": "22",
           "correct": true
         },
         {
-          "id": "id-cbn314igt",
+          "id": "id-y1tsfmt9z",
           "text": "23",
           "correct": false
         },
         {
-          "id": "id-s7crr7hvo",
+          "id": "id-0w6t2bp3z",
           "text": "21",
           "correct": false
         }
@@ -345,7 +347,7 @@
       "spaces": true
     },
     {
-      "id": "id-m7tbihptz",
+      "id": "id-05t12ugea",
       "type": "order",
       "text": "Расположите числа от меньшего к большему.",
       "label": "По возрастанию",
@@ -353,17 +355,17 @@
       "explanation": "1 меньше 3, а 3 меньше 5.",
       "options": [
         {
-          "id": "id-49i47jxun",
+          "id": "id-evznz08dy",
           "text": "1",
           "correct": false
         },
         {
-          "id": "id-0q418f7vv",
+          "id": "id-gblhhiq73",
           "text": "3",
           "correct": false
         },
         {
-          "id": "id-1esibzjpy",
+          "id": "id-rb7z5ivys",
           "text": "5",
           "correct": false
         }
@@ -376,7 +378,7 @@
       "spaces": true
     },
     {
-      "id": "id-ewbkzrkhw",
+      "id": "id-qjyjbf3qx",
       "type": "single",
       "text": "Сколько будет 13 + 13?",
       "label": "13 + 13",
@@ -384,17 +386,17 @@
       "explanation": "13 + 13 = 26",
       "options": [
         {
-          "id": "id-c28kqjeb8",
+          "id": "id-0mr2t17bo",
           "text": "26",
           "correct": true
         },
         {
-          "id": "id-dja7qyda3",
+          "id": "id-uppepvgtt",
           "text": "27",
           "correct": false
         },
         {
-          "id": "id-t5ctvbf45",
+          "id": "id-3qu5ull3q",
           "text": "25",
           "correct": false
         }
@@ -407,7 +409,7 @@
       "spaces": true
     },
     {
-      "id": "id-7nsyo5wug",
+      "id": "id-gu44x2mc2",
       "type": "single",
       "text": "Сколько будет 14 + 14?",
       "label": "14 + 14",
@@ -415,17 +417,17 @@
       "explanation": "14 + 14 = 28",
       "options": [
         {
-          "id": "id-8w0qjcwv2",
+          "id": "id-bh5ykzqwy",
           "text": "28",
           "correct": true
         },
         {
-          "id": "id-tu82lhtyr",
+          "id": "id-k7jjloyyq",
           "text": "29",
           "correct": false
         },
         {
-          "id": "id-5rm6tw4a5",
+          "id": "id-yq4sdxcgm",
           "text": "27",
           "correct": false
         }
@@ -438,7 +440,7 @@
       "spaces": true
     },
     {
-      "id": "id-abulhfrw8",
+      "id": "id-4emhjnhlp",
       "type": "single",
       "text": "В школьной библиотеке на первой полке стояло 15 книг о природе, а на второй — ещё 15 книг о путешествиях. Сколько всего книг стояло на этих двух полках? Выберите бочонок с правильным ответом.",
       "label": "15 + 15",
@@ -446,17 +448,17 @@
       "explanation": "15 + 15 = 30",
       "options": [
         {
-          "id": "id-m6nqf5syv",
+          "id": "id-d1583r2pq",
           "text": "30",
           "correct": true
         },
         {
-          "id": "id-13h9o990v",
+          "id": "id-e6cxu5eqn",
           "text": "31",
           "correct": false
         },
         {
-          "id": "id-2fa63b9lr",
+          "id": "id-52r65rgal",
           "text": "29",
           "correct": false
         }
@@ -471,111 +473,111 @@
   ],
   "tickets": [
     {
-      "id": "id-7f8v36a7c",
+      "id": "id-me1r98hwj",
       "name": "Билет 1",
       "rows": 3,
       "cols": 9,
       "template": "classic",
       "cells": [
-        "id-vkm855ytq",
+        "id-f7hrm2tv5",
         null,
-        "id-zwcefczqs",
+        "id-cjwwaplct",
         null,
-        "id-17o8k8hjo",
+        "id-aap2hn8z4",
         null,
-        "id-4dn2tidfl",
+        "id-pymmuaqer",
         null,
-        "id-chq1j1ol8",
+        "id-ch6t7pf1q",
         null,
-        "id-ix9ckpib9",
-        "id-aeveb27hd",
-        "id-82y2796wq",
+        "id-bw83yed9b",
+        "id-kylhcncqp",
+        "id-wsfw9z6so",
         null,
-        "id-c81etzbow",
+        "id-y56i8kume",
         null,
-        "id-swkuw3yky",
+        "id-0mz4ayi04",
         null,
-        "id-mff54iq3i",
+        "id-4esrmo15d",
         null,
         null,
-        "id-m7tbihptz",
-        "id-ewbkzrkhw",
+        "id-05t12ugea",
+        "id-qjyjbf3qx",
         null,
-        "id-7nsyo5wug",
+        "id-gu44x2mc2",
         null,
-        "id-abulhfrw8"
+        "id-4emhjnhlp"
       ]
     },
     {
-      "id": "id-awku4t7xg",
+      "id": "id-qie51eu6r",
       "name": "Билет 2",
       "rows": 3,
       "cols": 9,
       "template": "classic",
       "cells": [
-        "id-4dn2tidfl",
+        "id-pymmuaqer",
         null,
-        "id-chq1j1ol8",
+        "id-ch6t7pf1q",
         null,
-        "id-ix9ckpib9",
+        "id-bw83yed9b",
         null,
-        "id-aeveb27hd",
+        "id-kylhcncqp",
         null,
-        "id-82y2796wq",
+        "id-wsfw9z6so",
         null,
-        "id-c81etzbow",
-        "id-swkuw3yky",
-        "id-mff54iq3i",
+        "id-y56i8kume",
+        "id-0mz4ayi04",
+        "id-4esrmo15d",
         null,
-        "id-m7tbihptz",
+        "id-05t12ugea",
         null,
-        "id-ewbkzrkhw",
+        "id-qjyjbf3qx",
         null,
-        "id-7nsyo5wug",
+        "id-gu44x2mc2",
         null,
         null,
-        "id-abulhfrw8",
-        "id-vkm855ytq",
+        "id-4emhjnhlp",
+        "id-f7hrm2tv5",
         null,
-        "id-zwcefczqs",
+        "id-cjwwaplct",
         null,
-        "id-17o8k8hjo"
+        "id-aap2hn8z4"
       ]
     },
     {
-      "id": "id-95qr1ee8b",
+      "id": "id-xtqdyk1hd",
       "name": "Билет 3",
       "rows": 3,
       "cols": 9,
       "template": "classic",
       "cells": [
-        "id-aeveb27hd",
+        "id-kylhcncqp",
         null,
-        "id-82y2796wq",
+        "id-wsfw9z6so",
         null,
-        "id-c81etzbow",
+        "id-y56i8kume",
         null,
-        "id-swkuw3yky",
+        "id-0mz4ayi04",
         null,
-        "id-mff54iq3i",
+        "id-4esrmo15d",
         null,
-        "id-m7tbihptz",
-        "id-ewbkzrkhw",
-        "id-7nsyo5wug",
+        "id-05t12ugea",
+        "id-qjyjbf3qx",
+        "id-gu44x2mc2",
         null,
-        "id-abulhfrw8",
+        "id-4emhjnhlp",
         null,
-        "id-vkm855ytq",
+        "id-f7hrm2tv5",
         null,
-        "id-zwcefczqs",
+        "id-cjwwaplct",
         null,
         null,
-        "id-17o8k8hjo",
-        "id-4dn2tidfl",
+        "id-aap2hn8z4",
+        "id-pymmuaqer",
         null,
-        "id-chq1j1ol8",
+        "id-ch6t7pf1q",
         null,
-        "id-ix9ckpib9"
+        "id-bw83yed9b"
       ]
     }
   ],
@@ -601,6 +603,9 @@
     "barrel": "#edcb8c",
     "radius": 12,
     "fontSize": 18,
+    "questionSize": 22,
+    "answerSize": 22,
+    "tableOpacity": 0,
     "selected": "#dcae59",
     "correct": "#56ad81",
     "wrong": "#ed7177",
@@ -612,6 +617,8 @@
   "hero": {
     "image": "",
     "show": true,
+    "name": "",
+    "placement": "both",
     "x": 85,
     "y": 75,
     "size": 90,

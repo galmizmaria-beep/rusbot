@@ -1,0 +1,12 @@
+function makeHTML(project){
+  const data=JSON.stringify(project).replace(/</g,'\\u003c');
+  const fonts=UI_FONT_CSS[project.design.font]||'';
+  return '<!doctype html><html lang="'+Loto.esc(project.language||'ru')+'"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>'+Loto.esc(project.title)+'</title><style>'+GAME_CSS+MATH_CSS+fonts+'</style></head><body class="standalone"><main id="game"></main><script>'+GAME_SOURCE+'\nconst project='+data+';const game=new LotoGame(document.getElementById("game"),project);window.addEventListener("beforeunload",e=>{if(game.session?.status==="playing"&&(game.session.done.size||game.session.errors)){e.preventDefault();e.returnValue="";}});<'+ '/script></body></html>';
+}
+async function packHTML(html){
+  if(typeof CompressionStream==='undefined')return {html,compressed:false};
+  const bytes=new Uint8Array(await new Response(new Blob([html]).stream().pipeThrough(new CompressionStream('gzip'))).arrayBuffer());
+  let binary='';for(let i=0;i<bytes.length;i+=8192)binary+=String.fromCharCode(...bytes.subarray(i,i+8192));const payload=btoa(binary);
+  const loader='<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body style="margin:0;background:#123c33"><p id="loading" style="color:white;text-align:center;font:16px Arial;padding:30px">Загрузка игры / Loading…</p><script>(async()=>{try{if(!window.DecompressionStream)throw Error("Используйте современный браузер / Please update your browser");const bytes=Uint8Array.from(atob("'+payload+'"),c=>c.charCodeAt(0));const html=await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream("gzip"))).text();const frame=document.createElement("iframe");frame.title="Learning Lotto";frame.style="display:block;width:100%;height:100vh;border:0";frame.srcdoc=html;document.body.replaceChildren(frame);}catch(e){document.getElementById("loading").textContent=e.message;}})();<'+ '/script></body></html>';
+  return new Blob([loader]).size<new Blob([html]).size?{html:loader,compressed:true}:{html,compressed:false};
+}

@@ -1,0 +1,7 @@
+{
+  "name": "loto-studio",
+  "version": "1.1.0",
+  "private": true,
+  "scripts": { "test": "node tests/core.test.js && node tests/editor.test.mjs", "build": "python3 build.py" },
+  "devDependencies": { "linkedom": "0.18.12" }
+}
