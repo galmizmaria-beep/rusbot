@@ -11,3 +11,9 @@
 Библиотека и файлы шрифтов зафиксированы в `vendor-assets.zip`, для сборки извлекаются в `vendor/`. В готовый HTML встраиваются KaTeX и его шрифты, а также выбранное семейство игрового шрифта; внешний CDN при запуске не используется.
 
 Пользовательская шпаргалка «Шпаргалка по LaTeX» Светланы Быковой прочитана как справочный материал для математического синтаксиса. PDF не включён в публичный репозиторий или распространяемый архив.
+
+- **gifuct-js 2.1.2**, MIT, https://github.com/matt-way/gifuct-js — чтение GIF; `vendor/gifuct-js-LICENSE.txt`.
+- **js-binary-schema-parser 2.0.3**, MIT, https://github.com/matt-way/jsBinarySchemaParser — зависимость GIF-декодера; `vendor/js-binary-schema-parser-LICENSE.txt`.
+- **gifenc 1.0.3**, MIT, https://github.com/mattdesl/gifenc — кодирование GIF; `vendor/gifenc-LICENSE.txt`.
+
+GIF-кодеки встроены в редактор и не требуют сети. Дизайны бочонков созданы средствами SVG внутри проекта.

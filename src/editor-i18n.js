@@ -182,7 +182,7 @@ HTTPS-адрес опубликованной игры|Published game HTTPS URL|
 Поприветствуйте и поддержите ученика|Welcome and encourage your learner|Привітайте та підтримайте учня|Оқушыны қарсы алып, қолдаңыз
 `.trim().split('\n').map(line=>{const [ru,en,uk,kk]=line.split('|');return [ru,{ru,en,uk,kk}];}));
 const editorTextSources=new WeakMap();
-function applyEditorLanguage(){const lang=project.editorLanguage||'ru';document.documentElement.lang=lang;
+function applyEditorLanguage(){const lang='ru';document.documentElement.lang=lang;
   const walk=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT);let node;
   while(node=walk.nextNode()){
     const parent=node.parentElement;if(!parent||parent.closest('#game,script,style,textarea,[data-user],.editor-footer,#project-title,#project-stats,#save-status,#toast,#embed-error,#embed-size,#embed-compatibility'))continue;

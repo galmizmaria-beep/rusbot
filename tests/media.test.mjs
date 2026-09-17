@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+import {Blob} from 'node:buffer';
+const root=new URL('../',import.meta.url),context=vm.createContext({Blob,Uint8Array,Uint8ClampedArray,setTimeout});
+vm.runInContext((await fs.readFile(new URL('src/gif-codecs.js',root),'utf8'))+'\n'+(await fs.readFile(new URL('src/media.js',root),'utf8'))+'\nthis.api={GifEncoder,GifDecoder,LotoMedia};',context);
+const {GifEncoder:E,GifDecoder:D,LotoMedia:M}=context.api;
+const enc=E.GIFEncoder(),palette=[[0,0,0],[255,0,0],[0,255,0]];
+enc.writeFrame(new Uint8Array([1,0,0,1]),2,2,{palette,delay:120,transparent:true,transparentIndex:0,repeat:0,dispose:2});
+enc.writeFrame(new Uint8Array([0,2,2,0]),2,2,{palette,delay:230,transparent:true,transparentIndex:0,repeat:0,dispose:2});enc.finish();
+const output=await M.compressGif(enc.bytes(),2),bytes=new Uint8Array(await output.arrayBuffer()),gif=D.parseGIF(bytes.buffer),frames=D.decompressFrames(gif,true);
+assert.equal(frames.length,2);assert.equal(frames[0].delay,120);assert.equal(frames[1].delay,230);assert.equal(frames[0].patch[3],255);assert.equal(frames[0].patch[7],0);assert.equal(frames[1].patch[3],0);assert.equal(frames[1].patch[7],255);assert.equal(frames[0].patch[0],255);assert.equal(frames[1].patch[5],255);
+assert.ok(new TextDecoder().decode(bytes).includes('NETSCAPE2.0'));
+const small=D.parseGIF(await (await M.compressGif(enc.bytes(),1)).arrayBuffer());assert.equal(small.lsd.width,1);assert.equal(small.lsd.height,1);
+assert.equal(M.signature(enc.bytes()),'image/gif');assert.throws(()=>M.signature(new Uint8Array([60,115,99,114,105,112,116])));assert.equal(M.validImage('https://example.com/a.gif'),false);assert.equal(M.validAudio('data:text/html;base64,AAAA'),false);
+console.log('✓ GIF: число кадров, задержки, прозрачность, цвет, цикл и уменьшение размера; проверка форматов медиа.');
