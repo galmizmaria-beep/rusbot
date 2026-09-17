@@ -6,7 +6,7 @@
   "description": "Решай задания, выбирай бочонки и собери свой счастливый билет!",
   "questions": [
     {
-      "id": "id-tleziekwf",
+      "id": "id-xluyg7txj",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -18,17 +18,17 @@
       "explanation": "1 + 1 = 2",
       "options": [
         {
-          "id": "id-e2dzt89lb",
+          "id": "id-w0wnz6e11",
           "text": "2",
           "correct": true
         },
         {
-          "id": "id-k856e603p",
+          "id": "id-h8hi9xszz",
           "text": "3",
           "correct": false
         },
         {
-          "id": "id-q9vhvinfo",
+          "id": "id-mv8qej7ly",
           "text": "1",
           "correct": false
         }
@@ -41,7 +41,7 @@
       "spaces": true
     },
     {
-      "id": "id-owwrqq9uo",
+      "id": "id-v49nj5byl",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -53,17 +53,17 @@
       "explanation": "2 + 2 = 4",
       "options": [
         {
-          "id": "id-zbftac07s",
+          "id": "id-m1dz3g0ss",
           "text": "4",
           "correct": true
         },
         {
-          "id": "id-r5p4u5xx3",
+          "id": "id-p3wmnlx3s",
           "text": "5",
           "correct": false
         },
         {
-          "id": "id-oy0trvuy6",
+          "id": "id-l4hdyoi1v",
           "text": "3",
           "correct": false
         }
@@ -76,7 +76,7 @@
       "spaces": true
     },
     {
-      "id": "id-wkxhf9gbs",
+      "id": "id-a5xpzgv3d",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -88,17 +88,17 @@
       "explanation": "3 + 3 = 6",
       "options": [
         {
-          "id": "id-wv4i5nmky",
+          "id": "id-o4zdib8fq",
           "text": "6",
           "correct": true
         },
         {
-          "id": "id-geonpszsw",
+          "id": "id-rvgqtmoon",
           "text": "7",
           "correct": false
         },
         {
-          "id": "id-p09rscdmk",
+          "id": "id-jhl3pishy",
           "text": "5",
           "correct": false
         }
@@ -111,7 +111,7 @@
       "spaces": true
     },
     {
-      "id": "id-c8ejv74g0",
+      "id": "id-q8q7xfhlh",
       "type": "multiple",
       "answerRequired": true,
       "labelMedia": {
@@ -123,17 +123,17 @@
       "explanation": "Чётные числа делятся на 2 без остатка.",
       "options": [
         {
-          "id": "id-vy6ergncu",
+          "id": "id-pe1en4tyo",
           "text": "2",
           "correct": true
         },
         {
-          "id": "id-2y920xc9b",
+          "id": "id-3b3gcps2q",
           "text": "3",
           "correct": false
         },
         {
-          "id": "id-xr4gl50la",
+          "id": "id-k9iv07feg",
           "text": "4",
           "correct": true
         }
@@ -146,7 +146,7 @@
       "spaces": true
     },
     {
-      "id": "id-6f4j2kb6y",
+      "id": "id-i6mklgjo4",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -158,17 +158,17 @@
       "explanation": "5 + 5 = 10",
       "options": [
         {
-          "id": "id-46x7dh8gg",
+          "id": "id-om3odyrae",
           "text": "10",
           "correct": true
         },
         {
-          "id": "id-j8umaxh96",
+          "id": "id-j8e37ut6u",
           "text": "11",
           "correct": false
         },
         {
-          "id": "id-rckk1ko7w",
+          "id": "id-d71co5yv9",
           "text": "9",
           "correct": false
         }
@@ -181,7 +181,7 @@
       "spaces": true
     },
     {
-      "id": "id-rmyyw03er",
+      "id": "id-ee5ycuv91",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -193,17 +193,17 @@
       "explanation": "6 + 6 = 12",
       "options": [
         {
-          "id": "id-9d52ntvgr",
+          "id": "id-qgbvjxfm0",
           "text": "12",
           "correct": true
         },
         {
-          "id": "id-kh1w6t3cl",
+          "id": "id-gbesyzjsj",
           "text": "13",
           "correct": false
         },
         {
-          "id": "id-xxts085fa",
+          "id": "id-n639ar9cu",
           "text": "11",
           "correct": false
         }
@@ -216,7 +216,7 @@
       "spaces": true
     },
     {
-      "id": "id-b9s0diozn",
+      "id": "id-1r5hhfbqi",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -228,17 +228,17 @@
       "explanation": "7 + 7 = 14",
       "options": [
         {
-          "id": "id-5818cwg3b",
+          "id": "id-6yz5z9l8s",
           "text": "14",
           "correct": true
         },
         {
-          "id": "id-nzrvktd4n",
+          "id": "id-i0vvucdtj",
           "text": "15",
           "correct": false
         },
         {
-          "id": "id-siky1dbfz",
+          "id": "id-84wjupfdr",
           "text": "13",
           "correct": false
         }
@@ -251,7 +251,7 @@
       "spaces": true
     },
     {
-      "id": "id-t4hrjsc0q",
+      "id": "id-nl8sdyo0q",
       "type": "text",
       "answerRequired": true,
       "labelMedia": {
@@ -263,17 +263,17 @@
       "explanation": "Результат сложения — сумма.",
       "options": [
         {
-          "id": "id-8ijtc6dg6",
+          "id": "id-wzanzukf2",
           "text": "16",
           "correct": true
         },
         {
-          "id": "id-pz719di7x",
+          "id": "id-k07cam6kp",
           "text": "17",
           "correct": false
         },
         {
-          "id": "id-og218i98a",
+          "id": "id-jm4g5c1bw",
           "text": "15",
           "correct": false
         }
@@ -286,7 +286,7 @@
       "spaces": true
     },
     {
-      "id": "id-ltyacyt00",
+      "id": "id-vtblbvxg3",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -298,17 +298,17 @@
       "explanation": "9 + 9 = 18",
       "options": [
         {
-          "id": "id-17uyrdb26",
+          "id": "id-z700iwtad",
           "text": "18",
           "correct": true
         },
         {
-          "id": "id-u8b1v32jj",
+          "id": "id-qqzdqz09s",
           "text": "19",
           "correct": false
         },
         {
-          "id": "id-29mi9whoy",
+          "id": "id-brnsp1z3p",
           "text": "17",
           "correct": false
         }
@@ -321,7 +321,7 @@
       "spaces": true
     },
     {
-      "id": "id-55w63p8bi",
+      "id": "id-6bcvopp4e",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -333,17 +333,17 @@
       "explanation": "10 + 10 = 20",
       "options": [
         {
-          "id": "id-hacr69neg",
+          "id": "id-yhx093x6x",
           "text": "20",
           "correct": true
         },
         {
-          "id": "id-8n2we4z9q",
+          "id": "id-kd63r2r2j",
           "text": "21",
           "correct": false
         },
         {
-          "id": "id-ysb3vfh72",
+          "id": "id-rc82edp4e",
           "text": "19",
           "correct": false
         }
@@ -356,7 +356,7 @@
       "spaces": true
     },
     {
-      "id": "id-yhawp3ivd",
+      "id": "id-0nze4gpps",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -368,17 +368,17 @@
       "explanation": "11 + 11 = 22",
       "options": [
         {
-          "id": "id-zp24eneri",
+          "id": "id-ryrx15wz7",
           "text": "22",
           "correct": true
         },
         {
-          "id": "id-bdw47wuvg",
+          "id": "id-nwi9pn4wf",
           "text": "23",
           "correct": false
         },
         {
-          "id": "id-d30uhuy45",
+          "id": "id-6bggxmjpw",
           "text": "21",
           "correct": false
         }
@@ -391,7 +391,7 @@
       "spaces": true
     },
     {
-      "id": "id-zrr7jfavt",
+      "id": "id-cx890gomd",
       "type": "order",
       "answerRequired": true,
       "labelMedia": {
@@ -403,17 +403,17 @@
       "explanation": "1 меньше 3, а 3 меньше 5.",
       "options": [
         {
-          "id": "id-wprddih0z",
+          "id": "id-14d53pjs8",
           "text": "1",
           "correct": false
         },
         {
-          "id": "id-8olvlcf97",
+          "id": "id-ym2kttuq8",
           "text": "3",
           "correct": false
         },
         {
-          "id": "id-z0crqhei6",
+          "id": "id-x4pb6nm1z",
           "text": "5",
           "correct": false
         }
@@ -426,7 +426,7 @@
       "spaces": true
     },
     {
-      "id": "id-xwyt0rtaw",
+      "id": "id-jsw6rp32g",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -438,17 +438,17 @@
       "explanation": "13 + 13 = 26",
       "options": [
         {
-          "id": "id-1fcbnjqek",
+          "id": "id-putgoqzax",
           "text": "26",
           "correct": true
         },
         {
-          "id": "id-06lg1bi2i",
+          "id": "id-kfl2k4e0z",
           "text": "27",
           "correct": false
         },
         {
-          "id": "id-ttfn1l6qi",
+          "id": "id-4g3uh6pzw",
           "text": "25",
           "correct": false
         }
@@ -461,7 +461,7 @@
       "spaces": true
     },
     {
-      "id": "id-lwqnl2yu1",
+      "id": "id-rx6b5e42v",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -473,17 +473,17 @@
       "explanation": "14 + 14 = 28",
       "options": [
         {
-          "id": "id-6ymffw3vv",
+          "id": "id-rmog692zk",
           "text": "28",
           "correct": true
         },
         {
-          "id": "id-xnfjmz4jy",
+          "id": "id-uctul3dn1",
           "text": "29",
           "correct": false
         },
         {
-          "id": "id-ogrz5aepn",
+          "id": "id-wc714o7g5",
           "text": "27",
           "correct": false
         }
@@ -496,7 +496,7 @@
       "spaces": true
     },
     {
-      "id": "id-xd2d631ti",
+      "id": "id-k3fom3ofv",
       "type": "single",
       "answerRequired": true,
       "labelMedia": {
@@ -508,17 +508,17 @@
       "explanation": "15 + 15 = 30",
       "options": [
         {
-          "id": "id-ihoazlyv9",
+          "id": "id-2ot0livln",
           "text": "30",
           "correct": true
         },
         {
-          "id": "id-2yqcpjn0z",
+          "id": "id-l0ug3xztt",
           "text": "31",
           "correct": false
         },
         {
-          "id": "id-e8krfrqfu",
+          "id": "id-yh5nq3qvt",
           "text": "29",
           "correct": false
         }
@@ -533,111 +533,111 @@
   ],
   "tickets": [
     {
-      "id": "id-4g284ypr3",
+      "id": "id-myauz6so7",
       "name": "Билет 1",
       "rows": 3,
       "cols": 9,
       "template": "classic",
       "cells": [
-        "id-tleziekwf",
+        "id-xluyg7txj",
         null,
-        "id-owwrqq9uo",
+        "id-v49nj5byl",
         null,
-        "id-wkxhf9gbs",
+        "id-a5xpzgv3d",
         null,
-        "id-c8ejv74g0",
+        "id-q8q7xfhlh",
         null,
-        "id-6f4j2kb6y",
+        "id-i6mklgjo4",
         null,
-        "id-rmyyw03er",
-        "id-b9s0diozn",
-        "id-t4hrjsc0q",
+        "id-ee5ycuv91",
+        "id-1r5hhfbqi",
+        "id-nl8sdyo0q",
         null,
-        "id-ltyacyt00",
+        "id-vtblbvxg3",
         null,
-        "id-55w63p8bi",
+        "id-6bcvopp4e",
         null,
-        "id-yhawp3ivd",
+        "id-0nze4gpps",
         null,
         null,
-        "id-zrr7jfavt",
-        "id-xwyt0rtaw",
+        "id-cx890gomd",
+        "id-jsw6rp32g",
         null,
-        "id-lwqnl2yu1",
+        "id-rx6b5e42v",
         null,
-        "id-xd2d631ti"
+        "id-k3fom3ofv"
       ]
     },
     {
-      "id": "id-dwl7tvptf",
+      "id": "id-azv9no240",
       "name": "Билет 2",
       "rows": 3,
       "cols": 9,
       "template": "classic",
       "cells": [
-        "id-c8ejv74g0",
+        "id-q8q7xfhlh",
         null,
-        "id-6f4j2kb6y",
+        "id-i6mklgjo4",
         null,
-        "id-rmyyw03er",
+        "id-ee5ycuv91",
         null,
-        "id-b9s0diozn",
+        "id-1r5hhfbqi",
         null,
-        "id-t4hrjsc0q",
+        "id-nl8sdyo0q",
         null,
-        "id-ltyacyt00",
-        "id-55w63p8bi",
-        "id-yhawp3ivd",
+        "id-vtblbvxg3",
+        "id-6bcvopp4e",
+        "id-0nze4gpps",
         null,
-        "id-zrr7jfavt",
+        "id-cx890gomd",
         null,
-        "id-xwyt0rtaw",
+        "id-jsw6rp32g",
         null,
-        "id-lwqnl2yu1",
+        "id-rx6b5e42v",
         null,
         null,
-        "id-xd2d631ti",
-        "id-tleziekwf",
+        "id-k3fom3ofv",
+        "id-xluyg7txj",
         null,
-        "id-owwrqq9uo",
+        "id-v49nj5byl",
         null,
-        "id-wkxhf9gbs"
+        "id-a5xpzgv3d"
       ]
     },
     {
-      "id": "id-ah9wx1lcz",
+      "id": "id-fkv64wvcg",
       "name": "Билет 3",
       "rows": 3,
       "cols": 9,
       "template": "classic",
       "cells": [
-        "id-b9s0diozn",
+        "id-1r5hhfbqi",
         null,
-        "id-t4hrjsc0q",
+        "id-nl8sdyo0q",
         null,
-        "id-ltyacyt00",
+        "id-vtblbvxg3",
         null,
-        "id-55w63p8bi",
+        "id-6bcvopp4e",
         null,
-        "id-yhawp3ivd",
+        "id-0nze4gpps",
         null,
-        "id-zrr7jfavt",
-        "id-xwyt0rtaw",
-        "id-lwqnl2yu1",
+        "id-cx890gomd",
+        "id-jsw6rp32g",
+        "id-rx6b5e42v",
         null,
-        "id-xd2d631ti",
+        "id-k3fom3ofv",
         null,
-        "id-tleziekwf",
+        "id-xluyg7txj",
         null,
-        "id-owwrqq9uo",
+        "id-v49nj5byl",
         null,
         null,
-        "id-wkxhf9gbs",
-        "id-c8ejv74g0",
+        "id-a5xpzgv3d",
+        "id-q8q7xfhlh",
         null,
-        "id-6f4j2kb6y",
+        "id-i6mklgjo4",
         null,
-        "id-rmyyw03er"
+        "id-ee5ycuv91"
       ]
     }
   ],

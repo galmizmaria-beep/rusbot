@@ -29,5 +29,6 @@ Object.assign(gameWords.en,{audio:'Audio task',passage:'Reading task',scratch:'S
 Object.assign(gameWords.uk,{audio:'Аудіозавдання',passage:'Готовий текст',scratch:'Чернетка',pencil:'Олівець',eraser:'Гумка',clear:'Очистити',listen:'Прослухайте запис і виберіть відповідь',ticketNav:'Квитки'});
 Object.assign(gameWords.kk,{audio:'Аудиотапсырма',passage:'Дайын мәтін',scratch:'Қаралама',pencil:'Қарындаш',eraser:'Өшіргіш',clear:'Тазалау',listen:'Жазбаны тыңдап, жауапты таңдаңыз',ticketNav:'Билеттер'});
 for(const [lang,words] of Object.entries({ru:{noAnswers:'Прослушайте запись. Ответ выбирать не нужно.',listened:'Прослушано',taskComplete:'Задание выполнено'},en:{noAnswers:'Listen to the recording. No answer is required.',listened:'I have listened',taskComplete:'Task completed'},uk:{noAnswers:'Прослухайте запис. Відповідь не потрібна.',listened:'Прослухано',taskComplete:'Завдання виконано'},kk:{noAnswers:'Жазбаны тыңдаңыз. Жауап беру қажет емес.',listened:'Тыңдадым',taskComplete:'Тапсырма орындалды'}}))Object.assign(gameWords[lang],words);
+for(const [lang,taskDetails] of Object.entries({ru:'Задание',en:'Task',uk:'Завдання',kk:'Тапсырма'}))Object.assign(gameWords[lang],{taskDetails});
 return {plainAnswer,languages,fonts,gameWords,screenDefaults,t,screenText,migrate,math,patch,httpsURL,embedCode};
 })();
