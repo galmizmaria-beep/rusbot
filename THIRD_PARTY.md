@@ -17,3 +17,5 @@
 - **gifenc 1.0.3**, MIT, https://github.com/mattdesl/gifenc — кодирование GIF; `vendor/gifenc-LICENSE.txt`.
 
 GIF-кодеки встроены в редактор и не требуют сети. Дизайны бочонков созданы средствами SVG внутри проекта.
+
+- **fake-indexeddb 6.2.2**, Apache-2.0, https://github.com/dumbmatter/fakeIndexedDB — только тестирование хранилища; в редактор и экспорт не включается.
