@@ -30,8 +30,8 @@ html=read('editor.html')
 font_styles='<style id="math-css">'+math_css+'</style>'+''.join('<style id="font-'+name.replace(' ','-')+'">'+css+'</style>' for name,css in fonts.items())
 html=html.replace('/*FONT_STYLES*/',font_styles)
 editor_export="const GAME_SOURCE=document.getElementById('core-source').textContent+'\\n'+document.getElementById('game-source').textContent;const GAME_CSS=document.getElementById('game-css').textContent;const MATH_CSS=document.getElementById('math-css').textContent;const UI_FONT_CSS=Object.fromEntries(['Nunito','Roboto','Open Sans'].map(name=>[name,document.getElementById('font-'+name.replaceAll(' ','-')).textContent]));\n"+read('export-runtime.js')
-replacements=[('EDITOR_CSS',read('editor.css')),('GAME_CSS',css),('CORE_JS',math_js+'\n'+core+'\n'+read('support.js')+'\n'+read('barrel-art.js')+'\n'+read('media.js')+'\n'+read('storage.js')+'\n'+read('scratch.js')+'\n'+read('viewport.js')+'\n'+read('cell-drag.js')+'\n'+read('task-peek.js')),('GAME_JS',game),('EXPORT_JS',editor_export),('EDITOR_JS',read('gif-codecs.js')+'\n'+read('editor-media.js')+'\n'+read('editor-i18n.js')+'\n'+read('editor-extras.js')+'\n'+read('editor.js'))]
+replacements=[('EDITOR_CSS',read('editor.css')),('GAME_CSS',css),('CORE_JS',math_js+'\n'+core+'\n'+read('support.js')+'\n'+read('barrel-art.js')+'\n'+read('media.js')+'\n'+read('storage.js')+'\n'+read('scratch.js')+'\n'+read('viewport.js')+'\n'+read('cell-drag.js')+'\n'+read('task-peek.js')),('GAME_JS',game),('EXPORT_JS',editor_export),('EDITOR_JS',read('gif-library.js')+'\n'+read('gif-codecs.js')+'\n'+read('editor-media.js')+'\n'+read('editor-i18n.js')+'\n'+read('editor-extras.js')+'\n'+read('editor.js'))]
 for tag,content in replacements:html=html.replace('/*'+tag+'*/',content)
-html=html.replace('Лото Студия <b>1.0</b>','Лото Студия <b>1.5</b>')
+html=html.replace('Лото Студия <b>1.0</b>','Лото Студия <b>1.6</b>')
 (root/'Редактор Лото.html').write_text(html);(root/'index.html').write_text(html)
 print('Готово: Редактор Лото.html ('+str(len(html.encode()))+' байт)')
