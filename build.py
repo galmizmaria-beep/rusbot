@@ -20,7 +20,7 @@ for block in re.findall(r'@font-face\s*\{[^}]+\}',font_css):
     fonts[name]=fonts.get(name,'')+block
 core,game,css=read('core.js'),read('game.js'),read('game.css')
 math_js=(vendor/'katex.min.js').read_text().replace('</script','<\\/script')
-game_source='\n'.join([math_js,core,read('support.js'),read('barrel-art.js'),read('media.js'),read('storage.js'),read('scratch.js'),read('viewport.js'),read('cell-drag.js'),read('task-peek.js'),game])
+game_source='\n'.join([math_js,core,read('support.js'),read('barrel-art.js'),read('media.js'),read('storage.js'),read('scratch.js'),read('viewport.js'),read('cell-drag.js'),read('task-peek.js'),read('reader.js'),game])
 export_js='const GAME_SOURCE='+js_string(game_source)+';\nconst GAME_CSS='+js_string(css)+';\nconst MATH_CSS='+js_string(math_css)+';\nconst UI_FONT_CSS='+js_string(fonts)+';\n'
 # UI_FONT_CSS is an object, not a double-encoded string.
 export_js=export_js.replace('const UI_FONT_CSS='+js_string(fonts), 'const UI_FONT_CSS='+json.dumps(fonts,ensure_ascii=False).replace('<','\\u003c'))
@@ -30,8 +30,8 @@ html=read('editor.html')
 font_styles='<style id="math-css">'+math_css+'</style>'+''.join('<style id="font-'+name.replace(' ','-')+'">'+css+'</style>' for name,css in fonts.items())
 html=html.replace('/*FONT_STYLES*/',font_styles)
 editor_export="const GAME_SOURCE=document.getElementById('core-source').textContent+'\\n'+document.getElementById('game-source').textContent;const GAME_CSS=document.getElementById('game-css').textContent;const MATH_CSS=document.getElementById('math-css').textContent;const UI_FONT_CSS=Object.fromEntries(['Nunito','Roboto','Open Sans'].map(name=>[name,document.getElementById('font-'+name.replaceAll(' ','-')).textContent]));\n"+read('export-runtime.js')
-replacements=[('EDITOR_CSS',read('editor.css')),('GAME_CSS',css),('CORE_JS',math_js+'\n'+core+'\n'+read('support.js')+'\n'+read('barrel-art.js')+'\n'+read('media.js')+'\n'+read('storage.js')+'\n'+read('scratch.js')+'\n'+read('viewport.js')+'\n'+read('cell-drag.js')+'\n'+read('task-peek.js')),('GAME_JS',game),('EXPORT_JS',editor_export),('EDITOR_JS',read('gif-library.js')+'\n'+read('gif-codecs.js')+'\n'+read('editor-media.js')+'\n'+read('editor-i18n.js')+'\n'+read('editor-extras.js')+'\n'+read('editor.js'))]
+replacements=[('EDITOR_CSS',read('editor.css')),('GAME_CSS',css),('CORE_JS',math_js+'\n'+core+'\n'+read('support.js')+'\n'+read('barrel-art.js')+'\n'+read('media.js')+'\n'+read('storage.js')+'\n'+read('scratch.js')+'\n'+read('viewport.js')+'\n'+read('cell-drag.js')+'\n'+read('task-peek.js')+'\n'+read('reader.js')),('GAME_JS',game),('EXPORT_JS',editor_export),('EDITOR_JS',read('pdf-import.js')+'\n'+read('gif-library.js')+'\n'+read('gif-codecs.js')+'\n'+read('editor-media.js')+'\n'+read('editor-i18n.js')+'\n'+read('editor-extras.js')+'\n'+read('editor.js'))]
 for tag,content in replacements:html=html.replace('/*'+tag+'*/',content)
-html=html.replace('Лото Студия <b>1.0</b>','Лото Студия <b>1.7</b>')
+html=html.replace('Лото Студия <b>1.0</b>','Лото Студия <b>1.8</b>')
 (root/'Редактор Лото.html').write_text(html);(root/'index.html').write_text(html)
 print('Готово: Редактор Лото.html ('+str(len(html.encode()))+' байт)')

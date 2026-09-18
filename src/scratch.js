@@ -1,7 +1,7 @@
 class LotoScratch {
   constructor(game){this.game=game;this.strokes=[];this.open=false;this.color='#243858';this.width=3;this.eraser=false;this.revision=0;}
-  snapshot(){return {strokes:this.strokes,color:this.color,width:this.width,eraser:this.eraser};}
-  restore(data){this.strokes=Array.isArray(data?.strokes)?data.strokes:[];this.color=/^#[0-9a-f]{6}$/i.test(data?.color)?data.color:'#243858';this.width=Math.max(1,Math.min(12,Number(data?.width)||3));this.eraser=!!data?.eraser;this.revision++;this.draw();}
+  snapshot(){return {reading:this.game.reader.snapshot(),strokes:this.strokes,color:this.color,width:this.width,eraser:this.eraser};}
+  restore(data){this.game.reader.restore(data?.reading);this.strokes=Array.isArray(data?.strokes)?data.strokes:[];this.color=/^#[0-9a-f]{6}$/i.test(data?.color)?data.color:'#243858';this.width=Math.max(1,Math.min(12,Number(data?.width)||3));this.eraser=!!data?.eraser;this.revision++;this.draw();}
   changed(){this.revision++;this.game.onScratchChange(this.snapshot());}
 
   markup(){return `<section class="scratch-layer" ${this.open?'':'hidden'} aria-label="Черновик"><header><strong>${this.game.t('scratch')}</strong><button data-scratch="close" aria-label="${this.game.t('close')}">×</button></header><div class="scratch-tools"><button data-scratch="pen" class="${this.eraser?'':'active'}">✎ ${this.game.t('pencil')}</button><button data-scratch="eraser" class="${this.eraser?'active':''}">${this.game.t('eraser')}</button><input type="color" value="${this.color}" aria-label="Цвет карандаша"><input type="range" min="1" max="12" value="${this.width}" aria-label="Толщина карандаша"><button data-scratch="undo">↶</button><button data-scratch="clear">${this.game.t('clear')}</button></div><canvas width="1000" height="600" aria-label="Поле для решения заданий"></canvas></section>`;}

@@ -23,3 +23,7 @@ GIF-кодеки встроены в редактор и не требуют с�
 ## Noto Animated Emoji
 
 © Google. Анимации лицензированы по [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Источник: [официальная библиотека](https://googlefonts.github.io/noto-emoji-animation/), [каталог](https://googlefonts.github.io/noto-emoji-animation/data/api.json), снимок 18 сентября 2026 (881 запись). `src/gif-library.js` содержит только метаданные каталога. Анимации загружаются с официального fonts.gstatic.com после выбора пользователем; размер GIF уменьшается при добавлении. Проект сохраняет `notoAttribution`, а игра показывает автора, ссылку на источник, лицензию и отметку изменения размера. Шесть анимаций предыдущей версии удалены из каталога.
+
+## PDF.js
+
+Импорт PDF использует Mozilla PDF.js / pdfjs-dist **6.3.289**, совместимую сборку `legacy/build`. Лицензия Apache-2.0: https://github.com/mozilla/pdf.js/blob/master/LICENSE . Официальная документация: https://mozilla.github.io/pdf.js/examples/ . Модуль, worker, таблицы символов и ресурсы шрифтов загружаются по требованию с jsDelivr с закреплённой версией. В дистрибутив они не копируются; экспорт содержит только преобразованные страницы пользовательского материала.
